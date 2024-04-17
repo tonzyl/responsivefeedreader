@@ -8,4 +8,4 @@ It loads the groups (folders) and the feed ids belonging to each group, and then
 
 At the top there are buttons to mark a group or all groups read. This happens in the markread.php script that is called when a button is clicked.
 
-When the response form is submitted the script verwerkfeed2.php is called. That processes the webform and handles the response. It is called in the background, so that you can keep reading your feeds.
+When the response form is submitted the script verwerkfeed2.php is called. That processes the webform and handles the response. It is called in the background, so that you can keep reading your feeds. It in turn calls my micropub client (https://github.com/tonzyl/barebones_micropub_client) and a script to post to Hypothes.is (hypothis.php).
