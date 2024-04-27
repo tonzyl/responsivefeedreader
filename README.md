@@ -11,6 +11,8 @@ At the top there are buttons to mark a group or all groups read. This happens in
 
 When the response form is submitted the script verwerkfeed2.php is called. That processes the webform and handles the response. It is called in the background, so that you can keep reading your feeds. It in turn calls my micropub client (https://github.com/tonzyl/barebones_micropub_client) to post to my websites, and a script to post to Hypothes.is (hypothis.php).
 
+The processing is hard coded to fit my own individual use case and the templates and structure I use and prefer to shape a posting, annotate a page or create a note. This means that you need to adapt things to your preferred workflow.
+
 I chatted with GitHub Copilot writing this to understand how to do some things. The code, as you can see by its messiness, was written by myself. Because of the use of Copilot I put the code in the public domain.
 
 THIS CODE IS MEANT TO RUN ON A LOCALHOST on your laptop. DO NOT RUN ON THE OPEN INTERNET, as no precautions of any kind have been taken. It is meant as an example for you to take ideas or inspiration from, as it has been created for my individual use case only.
